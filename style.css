@@ -1,35 +1,37 @@
 * {
-    padding: 0;
-    margin: 0;
-    }
-    
-    :root {
-    --purple100: hsl(254, 88%, 90%);
-    --purple500: hsl(256, 67%, 59%);
-    --yellow100: hsl(31, 66%, 93%);
-    --yellow500: hsl(39, 100%, 71%);
-    --white: hsl(0, 0%, 100%);
-    --black: hsl(0, 0%, 7%);
-    }
-    
-    body {
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    min-height: 100vh;
-    font-family: "DM Sans", sans-serif;
-    }
-    
-    /*font weights are 400 and 500*/
-    
-    .attribution {
-    font-size: 11px;
-    text-align: center;
-    }
-    .attribution a {
-    color: hsl(228, 45%, 44%);
-    }
-    
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --purple100: hsl(254, 88%, 90%);
+  --purple500: hsl(256, 67%, 59%);
+  --yellow100: hsl(31, 66%, 93%);
+  --yellow500: hsl(39, 100%, 71%);
+  --white: hsl(0, 0%, 100%);
+  --black: hsl(0, 0%, 7%);
+}
+
+body {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: "DM Sans", sans-serif;
+}
+
+/*font weights are 400 and 500*/
+
+img {
+  width: 250px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
