@@ -29,36 +29,44 @@ img {
   width: 250px;
 }
 
+div {
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+}
+
 .social-media {
- background-color: var(--purple500);
+  background-color: var(--purple500);
+  color: var(--white);
 }
 
 .multiple-accounts {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .consistent {
-    background-color: var(--yellow500);
+  background-color: var(--yellow500);
 }
 
 .schedule {
-    background-color: var(--purple100);
+  background-color: var(--purple100);
 }
 
 .grow {
-    background-color: var(--purple500);
+  background-color: var(--purple500);
+  color: var(--white);
 }
 
 .audience {
-    background-color: var(--white);
+  background-color: var(--white);
 }
 
 .create {
-background-color: var(--yellow100);
+  background-color: var(--yellow100);
 }
 
 .ai {
-background-color: var(--yellow500);
+  background-color: var(--yellow500);
 }
 
 .attribution {
@@ -71,7 +79,7 @@ background-color: var(--yellow500);
 }
 
 .fa-brands {
-    font-size: 30px;
-    margin: 30px;
-    color: var(--purple500);
+  font-size: 30px;
+  margin: 30px;
+  color: var(--purple500);
 }
