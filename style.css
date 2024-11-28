@@ -28,6 +28,39 @@ body {
 img {
   width: 250px;
 }
+
+.social-media {
+ background-color: var(--purple500);
+}
+
+.multiple-accounts {
+    background-color: var(--white);
+}
+
+.consistent {
+    background-color: var(--yellow500);
+}
+
+.schedule {
+    background-color: var(--purple100);
+}
+
+.grow {
+    background-color: var(--purple500);
+}
+
+.audience {
+    background-color: var(--white);
+}
+
+.create {
+background-color: var(--yellow100);
+}
+
+.ai {
+background-color: var(--yellow500);
+}
+
 .attribution {
   font-size: 13px;
   text-align: center;
