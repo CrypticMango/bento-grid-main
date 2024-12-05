@@ -21,7 +21,7 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   font-family: "DM Sans", sans-serif;
-  background-color: rgb(54, 19, 80);
+  background-color: rgba(0, 0, 0, 0.144);
 }
 
 /*font weights are 400 and 500*/
@@ -38,6 +38,9 @@ div {
 
 h2 {
   font-weight: 500;
+}
+.tentimes {
+  color: var(--yellow500);
 }
 
 .social-media {
@@ -102,21 +105,81 @@ top: 20px;
   background-color: var(--purple100);
 }
 
+.schedule img {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+
+.schedule h2 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.schedule p {
+  text-align: center;
+  font-size: 18px;
+}
+
 .grow {
   background-color: var(--purple500);
   color: var(--white);
+}
+
+.grow img {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.grow h2 {
+  text-align: center;
+  padding: 0px 40px 0px 40px;
+  line-height: 23px;
 }
 
 .audience {
   background-color: var(--white);
 }
 
+.audience h2 {
+  font-size: 30px;
+}
+
+.audience p {
+  padding: 10px 0px 15px 0px;
+}
+
+.audience img {
+  width: 170px;
+}
+
 .create {
   background-color: var(--yellow100);
 }
 
+.create h2 {
+  padding-left: 10px;
+  line-height: 25px;
+}
+
+.create img {
+  width: 155px;
+  padding-top: 15px;
+}
+
+.quicker {
+  color: var(--purple500);
+}
+
 .ai {
   background-color: var(--yellow500);
+}
+
+.ai h2 {
+  line-height: 25px;
+  padding-bottom: 15px;
 }
 
 .attribution {
