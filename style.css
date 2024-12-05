@@ -196,3 +196,50 @@ top: 20px;
   margin: 30px;
   color: var(--purple500);
 }
+
+@media (min-width: 1440px) {
+
+  .grid-container {
+   display: grid;
+   justify-content: center;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr 1fr;
+  }
+
+  .create {
+    grid-column: 1 /span 1;
+    grid-row: 1 /span 2;
+  }
+
+  .social-media {
+    grid-column: 2 /span 2;
+  }
+
+  .schedule {
+    grid-column: 4 /span 1;
+    grid-row: 1 /span 2;
+  }
+
+  .ai {
+    grid-column: 1 /span 1;
+    grid-row: 3 /span 2;
+  }
+
+  .multiple-accounts {
+    grid-column: 2 /span 1;
+  }
+
+  .consistent {
+    grid-column: 3 /span 1;
+  }
+
+  .audience {
+    grid-column: 2 /span 1;
+    grid-row: 3 /span 1;
+  }
+
+  .grow {
+    grid-column: 3 /span 2;
+  }
+
+}
