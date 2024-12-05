@@ -21,6 +21,7 @@ body {
   margin: 0 auto;
   min-height: 100vh;
   font-family: "DM Sans", sans-serif;
+  background-color: rgb(54, 19, 80);
 }
 
 /*font weights are 400 and 500*/
@@ -32,7 +33,11 @@ img {
 div {
   padding: 20px;
   margin: 20px;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  font-weight: 500;
 }
 
 .social-media {
@@ -40,13 +45,58 @@ div {
   color: var(--white);
 }
 
+.social-media img {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+  width: 200px;
+}
+
+.social-media h1 {
+  font-weight: 400;
+  text-align: center;
+  line-height: 35px;
+  padding: 20px 40px 0px 40px;
+  font-size: 40px;
+}
+
+.social-media p {
+  margin: 0px 0px 25px 0px;
+  text-align: center;
+}
+
 .multiple-accounts {
   background-color: var(--white);
+}
+
+.multiple-accounts img {
+  width: 290px;
+  padding-bottom: 20px;
+}
+
+.multiple-accounts h2 {
+  font-size: 23px;
 }
 
 .consistent {
   background-color: var(--yellow500);
 }
+
+.consistent h2 {
+  line-height: 25px;
+}
+
+.consistent-img {
+height: 165px;
+width: max-content;
+overflow: hidden;
+padding: 0;
+margin: 0;
+border-radius: 0;
+position: relative;
+top: 20px;
+}
+
 
 .schedule {
   background-color: var(--purple100);
