@@ -235,9 +235,14 @@ top: 20px;
     grid-row: 3 /span 2;
   }
 
+  .ai img {
+    width: 235px;
+  }
+
   .multiple-accounts {
     grid-column: 2 /span 1;
     grid-row: 3 /span 1;
+    overflow: hidden;
   }
 
   .consistent {
